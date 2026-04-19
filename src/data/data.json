@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Learn Next.js Data Fetching",
+      "description": "Understand SSR, SSG, ISR and different fetching patterns.",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-04-21"
+    },
+    {
+      "id": 2,
+      "title": "Build Todo App",
+      "description": "Create a full CRUD todo app using Next.js and Tailwind CSS.",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2026-04-25"
+    },
+    {
+      "id": 3,
+      "title": "Practice DSA",
+      "description": "Solve at least 5 problems on arrays and recursion.",
+      "status": "pending",
+      "priority": "high",
+      "dueDate": "2026-04-20"
+    },
+    {
+      "id": 4,
+      "title": "Read JavaScript Concepts",
+      "description": "Closures, hoisting, promises, async/await.",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2026-04-18"
+    },
+    {
+      "id": 5,
+      "title": "Design Portfolio UI",
+      "description": "Create a modern UI using Tailwind + component library.",
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2026-04-30"
+    },
+    {
+      "id": 6,
+      "title": "API Integration",
+      "description": "Fetch and display data from external API.",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-22"
+    }
+  ]
+}
