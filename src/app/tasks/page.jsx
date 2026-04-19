@@ -6,7 +6,7 @@ const page = async () => {
 
     const tasks = await getTask()
     const t = tasks.tasks
-    console.log(t)
+    // console.log(t)
 
     return (
         <div>
