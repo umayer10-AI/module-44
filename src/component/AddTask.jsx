@@ -24,7 +24,7 @@ export function AddTask({createATask}) {
                     <Label>Title</Label>
                     <Input placeholder="Enter your Task title" />
                   </TextField>
-                  <TextField className="w-full" name="text" type="text">
+                  <TextField className="w-full" name="description" type="text">
                     <Label>Task description</Label>
                     <Input placeholder="Enter your task description" />
                   </TextField>
