@@ -19,6 +19,7 @@ export function AddTask({createATask}) {
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
+                
                 <form action={createATask} className="flex flex-col gap-4">
                   <TextField className="w-full" name="title" type="text">
                     <Label>Title</Label>
@@ -87,7 +88,7 @@ export function AddTask({createATask}) {
                         <Button slot="close" variant="secondary">
                             Cancel
                         </Button>
-                        <Button type="submit">Submit Task</Button>
+                        <Button slot={'close'} type="submit">Submit Task</Button>
                     </Modal.Footer>
                 </form>
               </Surface>
